@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script type="text/javascript" src="jquery.min.js"></script>
+  <script type="text/javascript" src="options.js"></script>
+</head>
+<body>
+  <table>
+    <tr>
+      <td>
+        <label for="es-server">elasticsearch server(domain or ip address)</label>
+      </td>
+      <td>
+        <input id="es-server" type="text" name=""/> ex) https://example.com:9200
+      </td>
+    </tr>
+    <tr>
+      <td><label for="index">index</label></td>
+      <td><input id="index" type="text" name=""/> ex) history</td>
+    </tr>
+    <tr>
+      <td><label for="type">type</label></td>
+      <td><input id="type" type="text" name=""/> ex) chrome</td>
+    </tr>
+  </table>
+  <input type="button" id="save" value="save"/>
+</body>
+</html>
