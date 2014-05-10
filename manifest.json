@@ -1,21 +1,21 @@
 {
-	"name" : "chrome client for elasticsearch",
-	"version" : "1.0",
-	"manifest_version" : 2,
-	
-	"description" : "elasticesearchに履歴データを突っ込むんで自分のWeb閲覧履歴を解析するchrome extension",
-	
-	"background" : {
-		"page" : "background.html"
-	},
+    "name" : "chrome client for elasticsearch",
+    "version" : "1.0",
+    "manifest_version" : 2,
+
+    "description" : "elasticesearchに履歴データを突っ込むんで自分のWeb閲覧履歴を解析するchrome extension",
+
+    "background" : {
+        "page" : "background.html"
+    },
 
     "options_page" : "options.html",
-	
-	"permissions" : [
-		"*://*/*", 
+
+    "permissions" : [
+        "*://*/*", 
         "history",
         "webRequest",
         "storage",
         "notifications"
-	]
+    ]
 }
