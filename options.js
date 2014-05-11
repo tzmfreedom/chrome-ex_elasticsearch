@@ -32,6 +32,7 @@ $(function(){
             obj[SERVER_KEY] + "/" + 
             (obj[INDEX_KEY] ? obj[INDEX_KEY] : "history") + "/" + 
             (obj[TYPE_KEY] ? obj[TYPE_KEY] : "chrome"));
+        window.close();
     });
 });
 
